@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #b7b7b7;;
+    outline: none;
+}
+input:focus{
+    border-bottom: 1px solid #232323;
+}
+#noteinput{
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+}
+.title-notes{
+    margin-top: 50px;
+}
+.notes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.notes input{
+    padding: 10px 0;
+    width: 500px;
+}
+.remove{
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    color: red;
+    font-size: 14px;
+}
+.addItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #b7b7b7;
+    padding: 5px 10px;
+    font-size: 14px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pages/Note-List';
+import App from './pages/notes';
 
 ReactDOM.render(
   <React.StrictMode>
